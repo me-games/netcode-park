@@ -1,0 +1,12 @@
+# genex (deploy key + local metadata — never publish)
+genex_key
+genex_key.pub
+.genex/
+
+# node / vite
+node_modules/
+dist/
+*.local
+.DS_Store
+logs/
+*.log

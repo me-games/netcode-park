@@ -1,0 +1,26 @@
+{
+  "name": "netcodepark",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@dimforge/rapier3d-compat": "^0.19.3",
+    "@genex-ai/embed-sdk": "^0.4.0",
+    "@genex-ai/multiplayer": "^0.8.0",
+    "@pixiv/three-vrm": "^3.5.4",
+    "@sentry/browser": "^10.63.0",
+    "three": "^0.185.1",
+    "tslib": "^2.8.1"
+  },
+  "devDependencies": {
+    "@types/three": "^0.185.0",
+    "playwright": "^1.61.1",
+    "typescript": "^6.0.3",
+    "vite": "^8.1.3"
+  }
+}
